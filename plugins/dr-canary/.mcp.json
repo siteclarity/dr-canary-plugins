@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dr-canary": {
+      "type": "http",
+      "url": "https://www.drcanary.com/api/mcp/"
+    }
+  }
+}

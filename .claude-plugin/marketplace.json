@@ -1,0 +1,18 @@
+{
+  "name": "dr-canary-plugins",
+  "owner": {
+    "name": "SCAI LLC",
+    "url": "https://www.drcanary.com"
+  },
+  "metadata": {
+    "description": "Dr. Canary plugins for AI assistants, published by SCAI LLC."
+  },
+  "plugins": [
+    {
+      "name": "dr-canary",
+      "source": "./plugins/dr-canary",
+      "description": "Bring Dr. Canary customer journey QA into your assistant: find UX bugs in connected websites and web apps, review browser evidence, prepare a developer fix brief, save focused checks and follow supported rechecks. Includes mobile web, inquiry replies and cookie consent observations.",
+      "category": "testing"
+    }
+  ]
+}

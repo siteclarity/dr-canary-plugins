@@ -1,0 +1,28 @@
+{
+  "name": "dr-canary",
+  "displayName": "Dr. Canary Customer Journey QA",
+  "version": "0.0.1",
+  "description": "Bring Dr. Canary customer journey QA into your assistant: find UX bugs in connected websites and web apps, review browser evidence, prepare a developer fix brief, save focused checks and follow supported rechecks. Includes mobile web, inquiry replies and cookie consent observations.",
+  "author": {
+    "name": "SCAI LLC",
+    "url": "https://www.drcanary.com"
+  },
+  "homepage": "https://www.drcanary.com/capabilities/",
+  "repository": "https://github.com/siteclarity/dr-canary-plugins",
+  "license": "Apache-2.0",
+  "privacyPolicyUrl": "https://www.drcanary.com/legal/privacy/",
+  "keywords": [
+    "customer journey QA",
+    "user experience testing",
+    "web application testing",
+    "mobile web testing",
+    "cross-browser testing",
+    "bug reports",
+    "regression testing",
+    "signup and onboarding",
+    "checkout testing",
+    "lead engagement testing",
+    "cookie consent testing",
+    "AI coding agents"
+  ]
+}
