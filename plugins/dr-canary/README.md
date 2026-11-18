@@ -61,7 +61,23 @@ Give your AI agent a QA wingman. Bring Dr. Canary customer journey evidence into
 /plugin install dr-canary --marketplace siteclarity/dr-canary-plugins
 ```
 
+- This one-step command needs Claude Code 2.1.275 or later.
+- On an earlier version, add the marketplace first:
+
+  ```
+  /plugin marketplace add siteclarity/dr-canary-plugins
+  /plugin install dr-canary@dr-canary-plugins
+  ```
+
 ## Connect your account
+
+### In Claude Code
+
+1. Run `/mcp` and select the Dr. Canary server that the plugin added.
+2. Sign in through Dr. Canary's normal OAuth flow and review the account permissions.
+3. Start sign-in and finish it on the same device.
+
+### In Claude and Cowork
 
 1. Open this plugin's Connectors tab in Claude and connect Dr. Canary.
 2. Sign in through Dr. Canary's normal OAuth flow and review the account permissions.
@@ -93,10 +109,10 @@ Try these requests after connecting your account.
 
 ## Data
 
-- The plugin sends tool requests to your Dr. Canary account through `https://www.drcanary.com/api/mcp/`. These carry the site, report, check or shopper you ask about and any shopper settings you save.
-- The plugin stores nothing itself.
-- It contains skills, a connector reference and an icon. It has no scripts, hooks or local servers.
-- [Privacy policy](https://www.drcanary.com/legal/privacy/)
+- **Sent:** tool requests go to your Dr. Canary account through `https://www.drcanary.com/api/mcp/`. They carry the site, report, check or shopper you ask about and any shopper settings you save.
+- **Returned:** the reports, evidence and inquiry conversations your account can access. Inquiry conversations contain the business's replies, which can include names and contact details.
+- **Kept by Dr. Canary:** the shopper settings and focus text you save, under your account. The [privacy policy](https://www.drcanary.com/legal/privacy/) describes how Dr. Canary handles and retains data.
+- **Kept by the plugin:** nothing. It contains skills, a connector reference and an icon, with no scripts, hooks or local servers.
 
 ## Documentation and support
 

@@ -89,6 +89,10 @@ Help the user choose what a customer should be able to do, make the requested sa
 
 ## Make the requested saved change
 
+### Before any save, calendar change or retirement
+
+- Explain the requested effect and follow host write controls.
+
 ### Save a shopper
 
 - `save_assignment` replaces name, departments, inquiry choice, cadence and pause.
@@ -121,9 +125,8 @@ Help the user choose what a customer should be able to do, make the requested sa
 - Use the dedicated calendar or retirement operation for those requests.
 - Neither is a patch to `save_assignment`.
 
-### Finish the save
+### After the write
 
-- Explain the requested effect and follow host write controls.
 - Return the saved receipt and exact reference.
 - Save-only requests stop here.
 

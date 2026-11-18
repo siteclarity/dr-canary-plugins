@@ -17,8 +17,8 @@ Dr. Canary plugins for AI assistants, published by SCAI LLC.
    /plugin install dr-canary@dr-canary-plugins
    ```
 
-2. Connect your Dr. Canary account from the plugin's Connectors tab.
-3. Follow the [plugin guide](plugins/dr-canary/README.md) for sign-in and permissions.
+2. Run `/mcp`, select the Dr. Canary server that the plugin added and sign in with your Dr. Canary account.
+3. Follow the [plugin guide](plugins/dr-canary/README.md) for permissions, and for connecting in Claude and Cowork.
 
 ## What is in the plugin
 
