@@ -10,7 +10,10 @@
   "homepage": "https://www.drcanary.com/capabilities/",
   "repository": "https://github.com/siteclarity/dr-canary-plugins",
   "license": "Apache-2.0",
+  "documentationUrl": "https://www.drcanary.com/mcp/",
+  "supportUrl": "https://www.drcanary.com/mcp/troubleshooting/",
   "privacyPolicyUrl": "https://www.drcanary.com/legal/privacy/",
+  "termsOfServiceUrl": "https://www.drcanary.com/legal/terms/",
   "keywords": [
     "customer journey QA",
     "user experience testing",
